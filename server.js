@@ -13,9 +13,4 @@ app.get('/api/whoami', function(req, res) {
     res.end(JSON.stringify(clientData));
 });
 
-app.get('/api/whoami2', function(req, res) {
-    console.log('Received a request 2.');
-    res.end('link 2');
-});
-
 app.listen(process.env.PORT || 5000);
