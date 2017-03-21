@@ -6,6 +6,6 @@
     "repository": "",
     "author": "Ajinkya Hingne",
     "dependencies": {
-        "express": "~3.2.4",
+        "express": "~3.2.4"
     }
 }
