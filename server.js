@@ -18,4 +18,4 @@ app.get('/api/whoami2', function(req, res) {
     res.end('link 2');
 });
 
-app.listen(8080);
+app.listen(process.env.PORT || 5000);
